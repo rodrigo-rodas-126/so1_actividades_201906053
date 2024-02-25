@@ -1,0 +1,12 @@
+[Unit]
+Description=Servicio SO1
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/actividad.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
