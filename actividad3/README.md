@@ -8,9 +8,9 @@ Para la creacion del servicio se hicieron los siguientes pasos
 
 - Con los archivos listos se le dieron los permisos correspondientes a cada uno
 
-        sudo chmod 744 /usr/local/bin/enable_touchpad.sh
+        sudo chmod 744 /usr/local/bin/actividad.sh
 
-        sudo chmod 644 /etc/systemd/system/touchpad_enabler.service
+        sudo chmod 644 /etc/systemd/system/soactividad.service
 
 - Para leventar el servicio en el arranque del sistema ejecuto el siguiente comando
 
